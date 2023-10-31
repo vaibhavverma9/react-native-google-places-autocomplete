@@ -171,7 +171,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       _abortRequests();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [stateText]);
+  }, []);
 
   useEffect(() => {
     // Update dataSource if props.predefinedPlaces changed
